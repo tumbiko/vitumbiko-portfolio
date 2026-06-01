@@ -1,4 +1,7 @@
 import { Skill, Project, Experience, Education, Certification, Stat } from "./types";
+import profileImg from "./assets/images/vitumbiko_profile_new.jpg";
+import garbageImg from "./assets/images/garbage_monitoring_1780345218285.png";
+import clinicImg from "./assets/images/clinic_dashboard_1780345237310.png";
 
 export const personalInfo = {
   name: "Vitumbiko Shaba",
@@ -10,7 +13,7 @@ export const personalInfo = {
   github: "https://github.com/vitumbiko21",
   linkedin: "https://linkedin.com/in/vitumbiko-shaba",
   twitter: "https://twitter.com/v_shaba_tech",
-  profileImage: "/src/assets/images/vitumbiko_profile_new.jpg"
+  profileImage: profileImg
 };
 
 export const stats: Stat[] = [
@@ -53,7 +56,7 @@ export const projects: Project[] = [
     description: "An advanced IoT-driven waste management system designed to optimize disposal routines and schedule automated collections.",
     category: "IoT",
     technologies: ["ESP32", "GPS Module", "PHP", "SQL Database", "Vite React", "Leaflet Maps"],
-    imageUrl: "/src/assets/images/garbage_monitoring_1780345218285.png",
+    imageUrl: garbageImg,
     featured: true,
     githubUrl: "https://github.com/vitumbiko21/smart-garbage-iot",
     demoUrl: "https://www.google.com/search?q=Smart+Garbage+Monitoring+System+Vitumbiko+Shaba+Blantyre",
@@ -65,7 +68,7 @@ export const projects: Project[] = [
     description: "A secure patient management ecosystem with real-time consultation booking channels, digital medical charts, and instant notifications.",
     category: "Web",
     technologies: ["React", "Node.js", "Express", "PostgreSQL", "Tailwind CSS", "Firebase Auth"],
-    imageUrl: "/src/assets/images/clinic_dashboard_1780345237310.png",
+    imageUrl: clinicImg,
     githubUrl: "https://github.com/vitumbiko21/chalo-care",
     demoUrl: "https://www.google.com/search?q=Chalo+Care+Clinic+Portal+Malawi",
     detailedDescription: "Designed to expand digital access to medical professionals, the Chalo Care Clinic Portal manages online schedules, records persistent medical histories encrypted at rest, and streamlines remote doctor-patient checkups. It reduces average clinic waiting delays by up to 60% through an advanced state-synchronized queueing engine."
