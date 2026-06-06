@@ -10,9 +10,9 @@ export const personalInfo = {
   email: "vitumbiko2121@gmail.com",
   phone: "+265 992 047 025",
   bio: "A highly analytical and driven ICT professional with a passion for designing intelligent software systems, modeling data insights, and engineering internet-of-things (IoT) architectures. Bridging the gap between hardware and software to offer solutions optimized for Malawian and international development contexts.",
-  github: "https://github.com/vitumbiko21",
+  github: "https://github.com/tumbiko",
   linkedin: "https://linkedin.com/in/vitumbiko-shaba",
-  twitter: "https://twitter.com/v_shaba_tech",
+  twitter: "https://twitter.com/@brozoned47",
   profileImage: profileImg
 };
 
@@ -29,17 +29,17 @@ export const skills: Skill[] = [
   { name: "TypeScript", level: 85, category: "Languages" },
   { name: "Python", level: 80, category: "Languages" },
   { name: "PHP", level: 75, category: "Languages" },
-  
+
   // Frameworks
   { name: "React", level: 88, category: "Frameworks & Libraries" },
-  { name: "Next.js", level: 82, category: "Frameworks & Libraries" },
-  { name: "Node.js", level: 80, category: "Frameworks & Libraries" },
+  { name: "Next.js", level: 90, category: "Frameworks & Libraries" },
+  { name: "Node.js", level: 85, category: "Frameworks & Libraries" },
   { name: "Tailwind CSS", level: 92, category: "Frameworks & Libraries" },
 
   // Tools & DBs
   { name: "Firebase", level: 85, category: "Tools & Databases" },
   { name: "SQL (PostgreSQL/MySQL)", level: 82, category: "Tools & Databases" },
-  { name: "Git & GitHub", level: 85, category: "Tools & Databases" },
+  { name: "Git & GitHub", level: 95, category: "Tools & Databases" },
   { name: "D3.js Data Viz", level: 78, category: "Tools & Databases" },
 
   // Hardware & IoT
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     technologies: ["ESP32", "GPS Module", "PHP", "SQL Database", "Vite React", "Leaflet Maps"],
     imageUrl: garbageImg,
     featured: true,
-    githubUrl: "https://github.com/vitumbiko21/smart-garbage-iot",
+    githubUrl: "https://github.com/tumbiko/Smart-Garbage-Monitoring-System/tree/master",
     demoUrl: "https://www.google.com/search?q=Smart+Garbage+Monitoring+System+Vitumbiko+Shaba+Blantyre",
     detailedDescription: "This flagship project tackles waste management in metropolitan clusters by mounting ultrasonic sensors and GPS trackers to communal bins. When fill thresholds are violated, data is dispatched over cellular link to a central SQL database. An interactive React admin portal maps current volume densities, computes dynamic routes for sanitation vehicles using heuristic pathing, and publishes analytical fill-rate forecasts using lightweight regression curves."
   },
@@ -81,8 +81,8 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk Auth", "Sanity CMS", "PostgreSQL (Neon)", "Paychangu Gateway"],
     imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=800&q=80",
     featured: true,
-    githubUrl: "https://github.com/vitumbiko21/pluto-shopping-store",
-    demoUrl: "https://www.google.com/search?q=Pluto+Shopping+Store+Vitumbiko+Shaba",
+    githubUrl: "https://github.com/tumbiko/Pluto-shopping-store",
+    demoUrl: "https://pluto-shopping-store.vercel.app/",
     detailedDescription: "A premium feature-rich e-commerce store engineered with Next.js, Tailwind CSS, and TypeScript. Integrated with Clerk Authentication for airtight user sessions, PostgreSQL (Neon) for highly indexable product states and transaction record tables, and Sanity CMS for dynamic storefront inventory management. Payments are fully live via custom Paychangu integration supporting Airtel Money and TNM Mpamba. Key features include product search, categoric filters, persistent carts, real-time order tracking, and a client dashboard."
   },
   {
@@ -93,8 +93,8 @@ export const projects: Project[] = [
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL (Neon)", "Framer Motion"],
     imageUrl: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
     featured: false,
-    githubUrl: "https://github.com/vitumbiko21/world-news-center",
-    demoUrl: "https://www.google.com/search?q=World+News+Center+Vitumbiko+Shaba",
+    githubUrl: "https://github.com/tumbiko/World-News-Center",
+    demoUrl: "https://world-news-center.vercel.app/",
     detailedDescription: "A real-time worldwide news aggregation system gathering feeds across global publications and persisting bookmarks, customized categories, and reading telemetry using PostgreSQL powered by Neon. Features multi-topic exploration, quick text searching, break-news highlighting, responsive layouts, and reading telemetry to ensure a clean, seamless, reader-first media experience."
   }
 ];
